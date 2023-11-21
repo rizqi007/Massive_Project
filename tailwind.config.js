@@ -2,10 +2,12 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    colors: {
-        primary: '#16A34A'
+    extend: {
+      colors:{
+        primary: '#16A34A',
+        oranye: '#FD7938',
       },
-    extend: {},
+    },
   },
   // eslint-disable-next-line no-undef
   plugins: [require("daisyui")]
