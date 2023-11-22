@@ -13,7 +13,8 @@ const Kumpulan = () => {
                     <div className="container">
                         <div className="ml-12 py-36">
                             <BagianTeks></BagianTeks>
-                            <Button></Button>
+                            <Button 
+                            button="Pilih Sekarang!!"></Button>
                         </div>
                     </div>
                 </div>

@@ -28,7 +28,8 @@ const TentangKami = () => {
                         BEM, tetapi juga merangkul semangat partisipasi dan
                         diskusi. Dengan fokus pada keamanan dan integritas
                         pemilihan, kami memastikan setiap suara dihitung dengan
-                        akurat, memberikan kepercayaan kepada setiap mahasiswa
+                        akurat, 
+                        memberikan kepercayaan kepada setiap mahasiswa
                         untuk membentuk arah BEM dan menciptakan perubahan
                         positif di lingkungan kampus. Mari bersama-sama
                         membangun budaya partisipasi yang kuat, menjadikan suara
@@ -36,7 +37,9 @@ const TentangKami = () => {
                         depan kampus yang lebih baik.
                     </p>
                 </div>
-                <div></div>
+                <div>
+                    
+                </div>
             </Case>
         </div>
     );
