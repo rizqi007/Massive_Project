@@ -1,4 +1,3 @@
-import Case from "./Case";
 import background from "../assets/img/TentangKami.png";
 
 const TentangKami = () => {
