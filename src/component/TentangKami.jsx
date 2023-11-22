@@ -4,11 +4,10 @@ import background from "../assets/img/TentangKami.png";
 const TentangKami = () => {
     return (
         <div>
-            <Case>
                 <div>
                     <section className="-mt-8">
                         <div
-                            className="bg-cover max-h-100"
+                            className="bg-cover w-full"
                             style={{ backgroundImage: `url(${background})` }}
                         >
                             <div className="container">
@@ -40,7 +39,7 @@ const TentangKami = () => {
                 <div>
                     
                 </div>
-            </Case>
+
         </div>
     );
 };
