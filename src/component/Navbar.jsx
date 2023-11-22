@@ -1,55 +1,46 @@
 import NavLink from "./Navlink";
 import { Link } from "react-router-dom";
-import Case from "./Case";
+import IKMI from "../assets/img/ikmi.png";
+import "../App.css";
 
 export default function Navbar() {
     return (
-        <div className="bg-white shadow-lg shadow-slate-350 py-2">
-            <Case>
-                <div className="flex items-center">
-                    <Link
-                        className="mr-2 text-sm font-bold uppercase text-primary "
-                        to="/"
-                    >
-                        PEMIRA IKMI
-                    </Link>
-                    <NavLink href="/">Beranda</NavLink>
-                    <NavLink href="/Ormawa">Ormawa</NavLink>
-                    <NavLink href="/Bem">BEM</NavLink>
-                    <NavLink href="/TentangKami">Tentang Kami</NavLink>
-                </div>
-            </Case>
+        <div className="navbar shadow-md z-50">
+            <div className="flex-1">
+                <img className="w-10 ml-8 mr-3 mb-1" src={IKMI} alt="" />
+                <Link
+                    className="mr-2 text-sm font-bold uppercase text-primary "
+                    to="/"
+                >
+                    PEMIRA IKMI
+                </Link>
+            </div>
+            <div className="flex-none mr-5">
+                <ul className="menu menu-horizontal px-1 font-bold">
+                    <li>
+                        <NavLink href="/">Beranda</NavLink>
+                    </li>
+                    <li>
+                        <NavLink href="/Ormawa">Ormawa</NavLink>
+                    </li>
+                    <li>
+                        <details>
+                            <summary>BEM</summary>
+                            <ul className="p-1 bg-white z-40">
+                                <li>
+                                    <NavLink href="/Tentang">Tentang</NavLink>
+                                </li>
+                                <li>
+                                    <NavLink href="/Pemira">Pemira</NavLink>
+                                </li>
+                            </ul>
+                        </details>
+                    </li>
+                    <li>
+                        <NavLink href="/TentangKami">Tentang Kami</NavLink>
+                    </li>
+                </ul>
+            </div>
         </div>
     );
 }
-
-
-// const Navbar = () => {
-//   return (
-    
-//     <div className="navbar bg-base-100">
-//   <div className="flex-1">
-//     <a className="btn btn-ghost text-xl">daisyUI</a>
-//   </div>
-//   <div className="flex-none">
-//     <ul className="menu menu-horizontal px-1">
-//       <li><NavLink href="/Ormawa">Ormawa</NavLink></li>
-//       <li><NavLink href="/Ormawa">Ormawa</NavLink></li>
-//       <li>
-//         <details>
-//           <summary>
-//             Parent
-//           </summary>
-//           <ul className="p-2 bg-base-100">
-//             <li><a>Link 1</a></li>
-//             <li><a>Link 2</a></li>
-//           </ul>
-//         </details>
-//       </li>
-//     </ul>
-//   </div>
-// </div>
-//   )
-// }
-
-// export default Navbar
