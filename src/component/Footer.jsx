@@ -1,10 +1,10 @@
 const Footer = () => {
     return (
-        <footer className="footer items-center p-4 bg-primary text-white">
-            <aside className="items-center grid-flow-col">
+        <footer className="footer items-center xl:footer items-center p-4 bg-primary text-white">
+            <aside className="text-xs xl:text-l mt-2 font-bold items-center grid-flow-col">
                 <p> © STMIK IKMI Cirebon - 2023</p>
             </aside>
-            <nav className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
+            <nav className="hidden xl:grid-flow-col gap-4 md:place-self-center md:justify-self-end">
                 <a>
                     <svg
                         xmlns="http://www.w3.org/2000/svg"

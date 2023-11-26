@@ -1,20 +1,17 @@
 import BagianTeks from "./BagianTeks";
-import Button from "./Button";
-import background from "../assets/img/bg2.png";
+import background from "../assets/img/bg.png";
 
 const Kumpulan = () => {
     return (
         <div>
-            <section className="sm:w-full -mt-10">
+            <section className="w-full">
                 <div
-                    className="bg-cover"
+                    className=" xl:bg-cover"
                     style={{ backgroundImage: `url(${background})` }}
                 >
                     <div className="container">
                         <div className="ml-12 py-36">
-                            <BagianTeks></BagianTeks>
-                            <Button 
-                            button="Pilih Sekarang!!"></Button>
+                            <BagianTeks />
                         </div>
                     </div>
                 </div>

@@ -6,12 +6,12 @@ const Tentang = () => {
     return (
         <div>
             <Case>
-                <div className="p-10">
+                <div className="p-10 mt-8">
                     <div className=" card lg:card-side bg-white shadow-2xl">
                         <figure>
                             <img className="w-80" src={BEM} alt="" />
                         </figure>
-                        <div className="card-body w-10 mt-10 text-justify text-slate-950">
+                        <div className=" px-4 xl:card-body w-10 mt-10 text-justify text-slate-950">
                             <p>
                                 Sekolah Tinggi Manajemen Informatika dan
                                 Komputer (STMIK) IKMI Cirebon berdiri

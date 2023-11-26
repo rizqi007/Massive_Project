@@ -5,3 +5,16 @@ body {
     background-color: hsl(0, 0%, 99%);
     color: #16a34a;
 }
+
+img {
+    transition: 0.3s ease all;
+    -webkit-transition: 0.3s ease all;
+    -moz-transition: 0.3s ease all;
+    -ms-transition: 0.3s ease all;
+    -o-transition: 0.3s ease all;
+    width: max-content;
+}
+
+img:hover {
+    scale: 105%;
+}

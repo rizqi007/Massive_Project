@@ -13,40 +13,34 @@ import Himka from "../assets/img/Himka.png";
 
 const ormawaGambar = [
     {
-        id: 1,
-        title: "ICGD",
+        key: 1,
         sejak: "Creatif Grafic Design",
         detail: "Berdiri sejak 2020, berdirinya organisasi ini adalah untuk mengembangkan bakat para mahasiswa yang menyukai grafik design.",
         image: Icgd,
     },
     {
-        id: 2,
-        title: "ICRT",
+        key: 2,
         sejak: "Cirebon Robotic Team",
         detail: "Berdiri sejak 2019, berdirinya organisasi ini adalah untuk mengembangkan bakat para mahasiswa yang menyukai robotic.",
         image: Icrt,
     },
     {
         id: 3,
-        title: "UKM Musik",
         sejak: "IKMI Musik",
         image: Musik,
     },
     {
         id: 4,
-        title: "IVOC",
         sejak: "VolleyBall Club",
         image: Voli,
     },
     {
         id: 5,
-        title: "IBC",
         sejak: "IKMI Badminton Club",
         image: Badminton,
     },
     {
         id: 6,
-        title: "ADCOM",
         sejak: "Android Developer Community",
         image: Adcom,
     },
