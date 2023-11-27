@@ -6,7 +6,7 @@ const Kumpulan = () => {
         <div>
             <section className="w-full">
                 <div
-                    className=" xl:bg-cover"
+                    className="lg:bg-cover xl:bg-cover"
                     style={{ backgroundImage: `url(${background})` }}
                 >
                     <div className="container">

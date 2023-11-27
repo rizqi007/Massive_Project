@@ -7,11 +7,11 @@ const Tentang = () => {
         <div>
             <Case>
                 <div className="p-10 mt-8">
-                    <div className=" card lg:card-side bg-white shadow-2xl">
+                    <div className=" card lg:card-side xl:card-side bg-white shadow-2xl">
                         <figure>
                             <img className="w-80" src={BEM} alt="" />
                         </figure>
-                        <div className=" px-4 xl:card-body w-10 mt-10 text-justify text-slate-950">
+                        <div className=" px-4 lg:card-body xl:card-body w-10 mt-10 text-justify text-slate-950">
                             <p>
                                 Sekolah Tinggi Manajemen Informatika dan
                                 Komputer (STMIK) IKMI Cirebon berdiri
@@ -29,20 +29,20 @@ const Tentang = () => {
                             <div className="card-actions justify-end"></div>
                         </div>
                     </div>
-                    <div className="p-6 mt-6 ml-4">
-                        <button className="bg-primary hover:bg-orange-600 text-white font-bold py-2 px-14 rounded-full mt-4 mr-2">
+                    <div className="p-4 mt-6 ml-14">
+                        <button className="lg: px-10 bg-primary hover:bg-orange-600 text-white font-bold py-2 px-14 rounded-full mt-4 mr-2">
                             Web Resmi
                         </button>
-                        <button className="bg-primary hover:bg-orange-600 text-white font-bold py-2 px-14 rounded-full mt-4 mr-2">
+                        <button className="lg: px-10 bg-primary hover:bg-orange-600 text-white font-bold py-2 px-14 rounded-full mt-4 mr-2">
                             Youtube
                         </button>
-                        <button className="bg-primary hover:bg-orange-600 text-white font-bold py-2 px-14 rounded-full mt-4 mr-2">
+                        <button className="lg: px-10 bg-primary hover:bg-orange-600 text-white font-bold py-2 px-14 rounded-full mt-4 mr-2">
                             Instagram
                         </button>
-                        <button className="bg-primary hover:bg-orange-600 text-white font-bold py-2 px-14 rounded-full mt-4 mr-2">
+                        <button className="lg: px-10 bg-primary hover:bg-orange-600 text-white font-bold py-2 px-14 rounded-full mt-4 mr-2">
                             facebook
                         </button>
-                        <button className="bg-primary hover:bg-orange-600 text-white font-bold py-2 px-14 rounded-full mt-4 mr-2">
+                        <button className="lg: px-10 bg-primary hover:bg-orange-600 text-white font-bold py-2 px-14 rounded-full mt-4 mr-2">
                             LinkedIn
                         </button>
                     </div>

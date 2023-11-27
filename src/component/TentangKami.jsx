@@ -13,7 +13,7 @@ const TentangKami = () => {
             <div>
                 <section>
                     <div
-                        className="xl:bg-cover w-full h-96 mt-1"
+                        className="bg-cover w-full h-96 mt-1"
                         style={{ backgroundImage: `url(${background})` }}
                     >
                         <div className="container">
@@ -50,9 +50,45 @@ const TentangKami = () => {
                         </div>
                 </div>
             </div>
-            <div className="container mx-auto px-5 py-2 lg:px-32 lg:pt-12 text-black text-end">
-  <div className="-m-1 flex flex-wrap md:-m-2">
-    <div className="flex w-1/3 flex-wrap  ">
+            <div className="rounded-md mt-12">
+              <div className="flex flex-row justify-center pb-6 ">
+                <div >
+                  <img className="sm:w-10 md:w-20 lg:w-40" src={Foto1} alt="Gambar1" />
+                  <h3 className="text-center text-black font-semibold mt-2">Tykea</h3>
+                </div>
+                <div >
+                  <img className="sm:w-10 md:w-20  lg:w-40 mx-8" src={Foto2} alt="Gambar1" />
+                  <h3 className="text-center text-black font-semibold mt-2">Myra</h3>
+                </div>
+                <div >
+                  <img className="sm:w-10 md:w-20  lg:w-40" src={Foto3} alt="Gambar1" />
+                  <h3 className="text-center text-black font-semibold mt-2">Amelia</h3>
+                </div>
+              </div>
+              <div className="flex flex-row justify-center pb-12">
+                <div>
+                  <img className="sm:w-10 md:w-20  lg:w-40" src={Foto4} alt="Gambar1" />
+                  <h3 className="text-center text-black font-semibold mt-2">Muhammad Rizqi</h3>
+                </div>
+                
+                <div>
+                  <img className="sm:w-10 md:w-20  lg:w-40 mx-8" src={Foto5} alt="Gambar1" />
+                  <h3 className="text-center text-black font-semibold mt-2">Nazar Yosa</h3>
+                </div>
+                <div>
+                  <img className="sm:w-10 md:w-20  lg:w-40 mr-8" src={Foto6} alt="Gambar1" />
+                  <h3 className="text-center text-black font-semibold mt-2">Rizki Ramdani</h3>
+                </div>
+                <div>
+                  <img className="sm:w-10 md:w-20  lg:w-40" src={Foto7} alt="Gambar1" />
+                  <h3 className="text-center text-black font-semibold mt-2">Galang Dwi</h3>
+                </div>
+
+              </div>
+            </div>
+            {/* <div className="container mx-auto px-5 py-2 lg:px-32 lg:pt-12 text-black text-end">
+  <div className=" flex flex-wrap ">
+    <div className=" w-72 h-48 flex flex-wrap  ">
       <div className="w-full p-1 md:p-2 ">
         <img
           alt="gallery"
@@ -61,7 +97,7 @@ const TentangKami = () => {
       </div>
       <h5>Tykea</h5>
     </div>
-    <div className="flex w-1/3 flex-wrap ">
+    <div className="w-72 h-48 flex flex-wrap ">
       <div className="w-full p-1 md:p-2">
         <img
           alt="gallery"
@@ -70,7 +106,7 @@ const TentangKami = () => {
       </div>
       <h5>Myra</h5>
     </div>
-    <div className="flex w-1/3 flex-wrap">
+    <div className="w-72 h-48 flex flex-wrap">
       <div className="w-full p-1 md:p-2">
         <img
           alt="gallery"
@@ -79,7 +115,7 @@ const TentangKami = () => {
       </div>
       <h5>Amel</h5>
     </div>
-    <div className="flex w-1/4 flex-wrap">
+    <div className="w-72 h-48 flex flex-wrap">
       <div className="w-full p-1 md:p-2">
         <img
           alt="gallery"
@@ -88,7 +124,7 @@ const TentangKami = () => {
       </div>
       <h5>Muhammad Rizqi</h5>
     </div>
-    <div className="flex w-1/4 flex-wrap">
+    <div className="w-72 h-48 flex flex-wrap">
       <div className="w-full p-1 md:p-2">
         <img
           alt="gallery"
@@ -97,7 +133,7 @@ const TentangKami = () => {
       </div>
       <h5>Nazar rojak</h5>
     </div>
-    <div className="flex w-1/4 flex-wrap">
+    <div className="w-72 h-48 flex flex-wrap">
       <div className="w-full p-1 md:p-2">
         <img
           alt="gallery"
@@ -107,7 +143,7 @@ const TentangKami = () => {
       </div>
       <h5>Rizki</h5>
     </div>
-    <div className="flex w-1/4 flex-wrap">
+    <div className="w-72 h-48 flex flex-wrap">
       <div className="w-full p-1 md:p-2">
         <img
           alt="gallery"
@@ -118,7 +154,7 @@ const TentangKami = () => {
       <h5>Galang</h5>
     </div>
   </div>
-</div>
+</div> */}
 
         </div>
     );
