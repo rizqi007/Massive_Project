@@ -13,7 +13,7 @@ const BagianTeks = () => {
                 <Button button="Pilih Sekarang !!" />
             </div>
             <div className="sm:visible xl:col-end-7 col-span-1 invisible">
-                <Logo/>
+                <Logo />
             </div>
         </div>
     );

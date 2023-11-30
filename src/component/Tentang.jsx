@@ -1,12 +1,17 @@
 import Case from "./Case";
 import Footer from "./Footer";
 import BEM from "../assets/img/BEM.png";
+import Website from "../assets/img/Webresmi.png";
+import youtube from "../assets/img/Youtube.png";
+import Instagram from "../assets/img/Instagram.png";
+import Facebook from "../assets/img/Facebook.png";
+import LinkedIn from "../assets/img/Linkedin.png";
 
 const Tentang = () => {
     return (
         <div>
             <Case>
-                <div className="p-10 mt-8">
+                <div className="p-10 mt-20">
                     <div className=" card lg:card-side xl:card-side bg-white shadow-2xl">
                         <figure>
                             <img className="w-80" src={BEM} alt="" />
@@ -29,22 +34,136 @@ const Tentang = () => {
                             <div className="card-actions justify-end"></div>
                         </div>
                     </div>
-                    <div className="p-4 mt-6 ml-14">
-                        <button className="lg: px-10 bg-primary hover:bg-orange-600 text-white font-bold py-2 px-14 rounded-full mt-4 mr-2">
-                            Web Resmi
+                    <div className="xl:p-10 ml-10">
+                        {/* You can open the modal using document.getElementById('ID').showModal() method */}
+                        <button
+                            className="btn rounded-full w-40 bg-blur bg-primary text-white border-none hover:bg-orange-600"
+                            onClick={() =>
+                                document
+                                    .getElementById("my_modal_1")
+                                    .showModal()
+                            }
+                        >
+                            Website Resmi
                         </button>
-                        <button className="lg: px-10 bg-primary hover:bg-orange-600 text-white font-bold py-2 px-14 rounded-full mt-4 mr-2">
+                        <dialog id="my_modal_1" className="modal">
+                            <div className="modal-box  w-11/12 max-w-5xl bg-white">
+                                <form method="dialog">
+                                    {/* if there is a button in form, it will close the modal */}
+                                    <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
+                                        ✕
+                                    </button>
+                                </form>
+                                <img
+                                    src={Website}
+                                    alt="..."
+                                    className=" max-w-lg object-cover rounded-lg m-auto mb-4 shadow-2xl"
+                                />
+                            </div>
+                        </dialog>
+                        {/* You can open the modal using document.getElementById('ID').showModal() method */}
+                        <button
+                            className="btn ml-4 rounded-full w-40 bg-blur bg-primary text-white border-none hover:bg-orange-600"
+                            onClick={() =>
+                                document
+                                    .getElementById("my_modal_2")
+                                    .showModal()
+                            }
+                        >
                             Youtube
                         </button>
-                        <button className="lg: px-10 bg-primary hover:bg-orange-600 text-white font-bold py-2 px-14 rounded-full mt-4 mr-2">
+                        <dialog id="my_modal_2" className="modal">
+                            <div className="modal-box  w-11/12 max-w-5xl bg-white">
+                                <form method="dialog">
+                                    {/* if there is a button in form, it will close the modal */}
+                                    <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
+                                        ✕
+                                    </button>
+                                </form>
+                                <img
+                                    src={youtube}
+                                    alt="..."
+                                    className=" max-w-lg object-cover rounded-lg m-auto mb-4 shadow-2xl"
+                                />
+                            </div>
+                        </dialog>
+                        {/* You can open the modal using document.getElementById('ID').showModal() method */}
+                        <button
+                            className="btn ml-4 rounded-full w-40 bg-blur bg-primary text-white border-none hover:bg-orange-600"
+                            onClick={() =>
+                                document
+                                    .getElementById("my_modal_3")
+                                    .showModal()
+                            }
+                        >
                             Instagram
                         </button>
-                        <button className="lg: px-10 bg-primary hover:bg-orange-600 text-white font-bold py-2 px-14 rounded-full mt-4 mr-2">
-                            facebook
+                        <dialog id="my_modal_3" className="modal">
+                            <div className="modal-box  w-11/12 max-w-5xl bg-white">
+                                <form method="dialog">
+                                    {/* if there is a button in form, it will close the modal */}
+                                    <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
+                                        ✕
+                                    </button>
+                                </form>
+                                <img
+                                    src={Instagram}
+                                    alt="..."
+                                    className=" max-w-lg object-cover rounded-lg m-auto mb-4 shadow-2xl"
+                                />
+                            </div>
+                        </dialog>
+                        {/* You can open the modal using document.getElementById('ID').showModal() method */}
+                        <button
+                            className="btn ml-4 rounded-full w-40 bg-blur bg-primary text-white border-none hover:bg-orange-600"
+                            onClick={() =>
+                                document
+                                    .getElementById("my_modal_4")
+                                    .showModal()
+                            }
+                        >
+                            Facebook
                         </button>
-                        <button className="lg: px-10 bg-primary hover:bg-orange-600 text-white font-bold py-2 px-14 rounded-full mt-4 mr-2">
+                        <dialog id="my_modal_4" className="modal">
+                            <div className="modal-box  w-11/12 max-w-5xl bg-white">
+                                <form method="dialog">
+                                    {/* if there is a button in form, it will close the modal */}
+                                    <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
+                                        ✕
+                                    </button>
+                                </form>
+                                <img
+                                    src={Facebook}
+                                    alt="..."
+                                    className=" max-w-lg object-cover rounded-lg m-auto mb-4 shadow-2xl"
+                                />
+                            </div>
+                        </dialog>
+                        <button
+                            className="btn ml-4 rounded-full w-40 bg-blur bg-primary text-white border-none hover:bg-orange-600"
+                            onClick={() =>
+                                document
+                                    .getElementById("my_modal_5")
+                                    .showModal()
+                            }
+                        >
                             LinkedIn
                         </button>
+                        <dialog id="my_modal_5" className="modal">
+                            <div className="modal-box  w-11/12 max-w-5xl bg-white">
+                                <form method="dialog">
+                                    {/* if there is a button in form, it will close the modal */}
+                                    <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
+                                        ✕
+                                    </button>
+                                </form>
+                                <img
+                                    src={LinkedIn}
+                                    alt="..."
+                                    className=" max-w-lg object-cover rounded-lg m-auto mb-4 shadow-2xl"
+                                />
+                            </div>
+                        </dialog>
                     </div>
                 </div>
             </Case>

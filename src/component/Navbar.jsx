@@ -8,11 +8,11 @@ export default function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <nav className="flex items-center justify-between flex-wrap fixed -mt-2 p-2.5 shadow-md xl:fixed bg-white w-full z-10">
+        <nav className="flex items-center justify-between flex-wrap fixed -mt-2 p-2 shadow-md xl:fixed bg-white w-full z-10">
             <div className="flex items-center flex-shrink-0 text-white mr-6 lg:mr-72 xl:ml-20">
                 <img src={IKMI} className="w-100 h-10 mr-2" alt="Logo" />
                 <Link
-                    className="mr-2 text-sm font-bold uppercase text-primary "
+                    className="mr-2 mt-2 text-sm font-bold uppercase text-primary "
                     to="/"
                 >
                     PEMIRA IKMI
@@ -48,8 +48,8 @@ export default function Navbar() {
                     isOpen ? "block" : "hidden"
                 }`}
             >
-                <div className="text-sm lg:flex-grow lg:ml-96 xl:ml-96 items-end">
-                    <ul className="menu xl:menu-horizontal md:menu-horizontal px-1 mt-2  ">
+                <div className="text-sm lg:flex-grow lg:ml-96 xl:ml-96 items-end ">
+                    <ul className="menu xl:menu-horizontal md:menu-horizontal px-1 mt-2   ">
                         <li>
                             <NavLink href="/">Beranda</NavLink>
                         </li>
@@ -59,7 +59,7 @@ export default function Navbar() {
                         <li>
                             <details>
                                 <summary>BEM</summary>
-                                <ul className="p-1 bg-white z-40">
+                                <ul className="p-1 bg-white z-40 w-30 rounded-xl">
                                     <li>
                                         <NavLink href="/Tentang">
                                             Tentang
