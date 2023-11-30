@@ -6,10 +6,10 @@ const Kumpulan = () => {
         <div>
             <section className="w-full">
                 <div
-                    className="lg:bg-cover xl:bg-cover"
+                    className="sm:bg-cover md:bg-cover lg:bg-cover xl:bg-cover "
                     style={{ backgroundImage: `url(${background})` }}
                 >
-                    <div className="container">
+                    <div className="">
                         <div className="ml-12 py-36">
                             <BagianTeks />
                         </div>

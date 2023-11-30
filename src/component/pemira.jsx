@@ -76,7 +76,7 @@ const pemira = () => {
                     <img
                         src={paslon1}
                         alt="..."
-                        className=" w-96 rounded-lg m-auto mb-4 mt-2"
+                        className=" w-80 rounded-lg m-auto mb-4 mt-2"
                     />
                     <h5 className="text-xs ml-32 text-black mb-2">
                         Muhammad Rizki Fadillah dan Anas Alfarizi
@@ -87,7 +87,7 @@ const pemira = () => {
                     <img
                         src={paslon2}
                         alt="..."
-                        className=" w-96 rounded-lg m-auto mb-4 mt-2"
+                        className=" w-80 rounded-lg m-auto mb-4 mt-2"
                     />
                     <p className="text-xs ml-36 text-black mb-6">
                         Muhammad Abdullah dan Rifki Ananda

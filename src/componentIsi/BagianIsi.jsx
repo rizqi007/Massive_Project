@@ -3,11 +3,11 @@ import pemira from "../assets/img/pemira.png";
 
 const BagianIsi = () => {
     return (
-        <div className=" xl:flex justify-center p-20 -mt-5">
+        <div className="lg:flex flex-row justify-center xl:flex justify-center p-20 -mt-5 md:justify-center">
             <div className=" xl:flex-1 text-gray-700 text-center mt-4 px-4 py-2 m-2">
                 <img className="" src={pemira} alt="" />
             </div>
-            <div className="sm: xl:flex-1 text-primary border-4 rounded-xl border-primary text-center mr-20 px-4 py-2 m-2 mt-24 mb-32">
+            <div className="md:justify-center ml-12 xl:flex-1 text-primary border-4 rounded-xl border-primary text-center mr-20 px-4 py-2 m-2 mt-24 mb-32">
                 <div className="">
                     <h3 className="xl:text-center text-black text-xl font-bold py-2">
                         Apa itu Pemira?

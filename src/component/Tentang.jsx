@@ -14,10 +14,10 @@ const Tentang = () => {
                 <div className="p-10 mt-20">
                     <div className=" card lg:card-side xl:card-side bg-white shadow-2xl">
                         <figure>
-                            <img className="w-80" src={BEM} alt="" />
+                            <img className="w-80 lg:w-72" src={BEM} alt="" />
                         </figure>
-                        <div className=" px-4 lg:card-body xl:card-body w-10 mt-10 text-justify text-slate-950">
-                            <p>
+                        <div className="md:card-body md:text-center md:w-3 md:mt-2  lg:card-body lg:w-5 lg:mt-5 xl:card-body xl:w-10 xl:mt-10 text-justify text-slate-950">
+                            <p className="md:text-center">
                                 Sekolah Tinggi Manajemen Informatika dan
                                 Komputer (STMIK) IKMI Cirebon berdiri
                                 berdasarkan SK Mendiknas RI Nomor 120/D/O/2001
@@ -34,7 +34,7 @@ const Tentang = () => {
                             <div className="card-actions justify-end"></div>
                         </div>
                     </div>
-                    <div className="xl:p-10 ml-10">
+                    <div className="lg:p-5 ml-5 xl:p-10 ml-10">
                         {/* You can open the modal using document.getElementById('ID').showModal() method */}
                         <button
                             className="btn rounded-full w-40 bg-blur bg-primary text-white border-none hover:bg-orange-600"
