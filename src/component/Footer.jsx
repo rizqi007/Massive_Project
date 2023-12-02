@@ -1,6 +1,6 @@
 const Footer = () => {
     return (
-        <footer className="fixed bottom-0 footer xl:footer items-center p-4 bg-primary text-white">
+        <footer className=" footer xl:footer items-center p-4 bg-primary text-white">
             <aside className="text-xs xl:text-l mt-2 font-bold items-center grid-flow-col">
                 <p> © STMIK IKMI Cirebon - 2023</p>
             </aside>

@@ -48,8 +48,8 @@ export default function Navbar() {
                     isOpen ? "block" : "hidden"
                 }`}
             >
-                <div className="text-sm lg:flex-grow lg:ml-96 xl:ml-96 items-end ">
-                    <ul className="menu xl:menu-horizontal md:menu-horizontal px-1 mt-2   ">
+                <div className="text-sm lg:flex-grow  xl:ml-96 items-end ">
+                    <ul className="menu  xl:menu-horizontal md:menu-horizontal px-1 mt-2   ">
                         <li>
                             <NavLink href="/">Beranda</NavLink>
                         </li>
@@ -76,7 +76,9 @@ export default function Navbar() {
                         </li>
                     </ul>
                 </div>
-                <div></div>
+                <div>
+
+            </div>
             </div>
         </nav>
     );

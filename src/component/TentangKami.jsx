@@ -45,11 +45,9 @@ const TentangKami = () => {
                         yang lebih baik.
                     </p>
                 </div>
-                <div>
-                    <div className="ml-32 bg-primary w-40 rounded-xl font-bold sm:-ml-10">
-                        <h2 className="ml-2 text-white ">Bertemu Tim Kami</h2>
-                    </div>
-                </div>
+               <div>
+                 <h2 className="md:ml-8 lg:ml-24 w-44  mb-8 px-4 py-2 font-semibold rounded-lg bg-green-700 text-white ">Bertemu Tim Kami</h2>
+               </div>
             </div>
             <div className="rounded-md mt-12 ">
                 <div className=" md:flex flex-wrap md:mx-16 lg:flex flex-row justify-center pb-6 ">
@@ -65,7 +63,7 @@ const TentangKami = () => {
                     </div>
                     <div>
                         <img
-                            className="sm:w-10 ml-14 md:w-60 md:mx-4 md:mb-4  lg:w-48 mx-8"
+                            className="sm:w-10 ml-14 md:w-60 md:mx-4 md:mb-4  lg:w-48 "
                             src={Foto2}
                             alt="Gambar1"
                         />
@@ -75,7 +73,7 @@ const TentangKami = () => {
                     </div>
                     <div>
                         <img
-                            className="sm:w-10 ml-14 md:w-60  lg:w-48"
+                            className="sm:w-10 md:w-60  lg:w-48"
                             src={Foto3}
                             alt="Gambar1"
                         />
@@ -98,7 +96,7 @@ const TentangKami = () => {
 
                     <div>
                         <img
-                            className="sm:w-10 sm:mr-24 md:w-60 md:mx-4  lg:w-48 mx-8"
+                            className="sm:w-10 mr-24 md:w-60 md:mx-4  lg:w-48 mx-8"
                             src={Foto5}
                             alt="Gambar1"
                         />
