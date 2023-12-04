@@ -72,16 +72,16 @@ const pemira = () => {
                                 Apakah kamu yakin?
                             </h3>
                             <a
-                                href="pemira"
-                                className="text-white bg-orange-500 hover:bg-orange-800 focus:ring-4 focus:ring-red-300 font-medium rounded-lg text-base inline-flex items-center px-3 py-2.5 text-center mr-2"
-                            >
-                                Ya, Saya Yakin
-                            </a>
-                            <a
                                 href="Pemira2"
                                 className="text-gray-900 bg-white hover:bg-gray-100 focus:ring-4 focus:ring-cyan-200 border border-gray-200 font-medium inline-flex items-center rounded-lg text-base px-3 py-2.5 text-center"
                             >
                                 Tidak, Batalkan
+                            </a>
+                            <a
+                                href="pemira"
+                                className="text-white bg-orange-500 hover:bg-orange-800 focus:ring-4 focus:ring-red-300 font-medium rounded-lg text-base inline-flex items-center px-3 py-2.5 text-center mr-2"
+                            >
+                                Ya, Saya Yakin
                             </a>
                         </div>
                     </dialog>
