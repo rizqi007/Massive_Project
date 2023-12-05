@@ -79,7 +79,7 @@ const pemira = () => {
                             </a>
                             <a
                                 href="pemira"
-                                className="text-white bg-orange-500 hover:bg-orange-800 focus:ring-4 focus:ring-red-300 font-medium rounded-lg text-base inline-flex items-center px-3 py-2.5 text-center mr-2"
+                                className="text-white bg-orange-500 hover:bg-orange-800 focus:ring-4 focus:ring-red-300 font-medium rounded-lg text-base inline-flex items-center px-3 py-2.5 text-center ml-2"
                             >
                                 Ya, Saya Yakin
                             </a>
