@@ -15,14 +15,14 @@ const ormawaGambar = [
     {
         id: 1,
         title: "ICGD",
-        sejak: "Creatif Grafic Design",
+        sejak: "Ikmi Creatif Grafic Design",
         detail: "Berdiri sejak 2020, berdirinya organisasi ini adalah untuk mengembangkan bakat para mahasiswa yang menyukai grafik design.",
         image: Icgd,
     },
     {
         id: 2,
         title: "ICRT",
-        sejak: "Cirebon Robotic Team",
+        sejak: "Ikmi Cirebon Robotic Team",
         detail: "Berdiri sejak 2019, berdirinya organisasi ini adalah untuk mengembangkan bakat para mahasiswa yang menyukai robotic.",
         image: Icrt,
     },

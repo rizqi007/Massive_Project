@@ -35,7 +35,7 @@ const Tentang = () => {
               <div className="card-actions justify-end"></div>
             </div>
           </div>
-          <div className="md:mt-8 lg:p-5 lg:ml-5 lg:mb-32 xl:p-10 ml-10">
+          <div className="md:mt-8 lg:p-5 lg:ml-24 lg:mb-32 xl:p-10 ml-10">
             <div className="flex">
               <ButtonWithModal
                 buttonText="Website Resmi"
