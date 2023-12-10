@@ -1,3 +1,6 @@
+/* eslint-disable no-unused-vars */
+/* eslint-disable react/prop-types */
+/* eslint-disable react/jsx-key */
 import Case from "./Case";
 //import Table from "./Table";
 import Footer from "./Footer";
@@ -10,10 +13,10 @@ const Ormawa = () => {
 
     const handleClick = (e) => {
         setShowModal(true)
-        console.log("ini id komponen ", e);
+        // console.log("ini id komponen ", e);
         setDataModal(ormawaGambar[e - 1])
     }
-    console.log("ini data yang dicari ", dataModal);
+    // console.log("ini data yang dicari ", dataModal);
 
     return (
         <div>
@@ -34,7 +37,7 @@ const Ormawa = () => {
                     </h4>
 
 
-                    <div className="grid lg:grid-cols-4 xl:grid-cols-4 md:grid-cols-3 grid-cols-1 gap-4 px-8 transition-all ">
+                    <div className="grid lg:grid-cols-4 xl:grid-cols-4 md:grid-cols-3 grid-cols-1 gap-4 px-8 transition-all">
 
                         {ormawaGambar.map((contents, index) => (
                             <Table
@@ -59,7 +62,7 @@ const Ormawa = () => {
 const Table = (props) => {
 
     return (
-        <div className="max-w-32 rounded-xl justify-center shadow-xl mb-6 " key={props.id}>
+        <div className=" max-w-32 rounded-xl justify-center shadow-xl mb-6 " key={props.id}>
             <img
                 src={props.image}
                 alt="..."
@@ -79,6 +82,7 @@ const Table = (props) => {
                     onClick={
                         (e) => props.handleClick(props.id)
                     }
+
                 >
                     Detail 
                 </button>
@@ -91,44 +95,22 @@ const Table = (props) => {
 const Modal = (props) => {
     return (
         // kalian styling sendiri
-        <div className="w-96 h-auto  p-5 border z-50 place-content-center mt-64 mx-96 bg-white rounded-md absolute justify-center " >
-            <p className="mr-0 cursor-pointer text-black" onClick={() => props.setShowModal(false)}>X</p>
-            <p className="font-bold  text-center underline decoration-solid text-primary">
+        <div className="shadow-xl absolute p-5 border z-10 place-content-center mt-64 mx-96 bg-white rounded-md justify-center m-auto " >
+            <p className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2 text-primary" onClick={() => props.setShowModal(false)}>X</p>
+            <p className="font-bold text-center underline decoration-solid text-primary">
                 {props.sejak}
             </p>
+            <div>
+                <img src={props.image} className="m-auto p-auto mt-6" alt="" />
+            </div>
+            
             <p className="font-normal my-5  text-center  text-black">
             {props.detail}
             </p>
-            <div>
-                <img src={props.image} className="w-64 h-auto ml-10" alt="" />
-            </div>
             
         </div>
-        // </div>
     )
 }
-        // <div>
-        //     <Case>
-        //         <div className="max-w-full mt-28">
-        //             <h4 className="text-2xl text-center mb-10 font-bold text-black">
-        //                 Halaman Ormawa
-        //             </h4>
-
-        //             <div className="grid lg:grid-cols-4 xl:grid-cols-4 md:grid-cols-3 grid-cols-1 gap-4 px-8 transition-all ">
-        //                 {ormawaGambar.map((contents) => (
-        //                     <Table
-        //                         key={contents.id}
-        //                         image={contents.image}
-        //                         title={contents.title}
-        //                         sejak={contents.sejak}
-        //                         detail={contents.detail}
-        //                     />
-        //                 ))}
-        //             </div>
-        //         </div>
-        //     </Case>
-        //     <Footer />
-        // </div>
 
 
 export default Ormawa;
