@@ -6,6 +6,7 @@ import Tentang from "./Tentang";
 import Pemira from "./pemira";
 import Pemira2 from "./Pemira2";
 import Onetime from "./Onetime";
+import Admin from "./admin";
 
 export default function Router() {
     return (
@@ -17,6 +18,7 @@ export default function Router() {
             <Route path="Pemira2" element={<Pemira2 />} />
             <Route path="Onetime" element={<Onetime />} />
             <Route path="TentangKami" element={<TentangKami />} />
+            <Route path="Admin" element={<Admin />} />
         </Routes>
     );
 }
