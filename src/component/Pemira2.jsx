@@ -10,10 +10,10 @@ const pemira = () => {
         showConfirmButton: false,
         timer: 2000,
         timerProgressBar: true,
-        didOpen: (toast) => {
-            toast.onmouseenter = Swal.stopTimer;
-            toast.onmouseleave = Swal.resumeTimer;
-        },
+        // didOpen: (toast) => {
+        //     toast.onmouseenter = Swal.stopTimer;
+        //     toast.onmouseleave = Swal.resumeTimer;
+        // },
     });
     Toast.fire({
         icon: "success",
@@ -26,7 +26,7 @@ const pemira = () => {
                 <div className="col-span-2 ml-16 mb-10 mt-20 p-6 text-black">
                     <h2 className="font-bold text-4xl">
                         Selamat Datang,{" "}
-                        <span className="font-light">Rizqi!</span>{" "}
+                        <span className="font-light">Muhammad Rizqi!</span>{" "}
                     </h2>
                 </div>
             </div>
@@ -73,13 +73,13 @@ const pemira = () => {
                             </h3>
                             <a
                                 href="Pemira2"
-                                className="text-gray-900 bg-white hover:bg-gray-100 focus:ring-4 focus:ring-cyan-200 border border-gray-200 font-medium inline-flex items-center rounded-lg text-base px-3 py-2.5 text-center"
+                                className="text-gray-900 bg-white hover:bg-gray-200 font-medium inline-flex items-center rounded-lg text-base px-3 py-2.5 text-center"
                             >
                                 Tidak, Batalkan
                             </a>
                             <a
-                                href="pemira"
-                                className="text-white bg-orange-500 hover:bg-orange-800 focus:ring-4 focus:ring-red-300 font-medium rounded-lg text-base inline-flex items-center px-3 py-2.5 text-center ml-2"
+                                href="Onetime"
+                                className="text-white bg-orange-500 hover:bg-orange-800 focus:ring-4 focus:ring-red-300 font-medium rounded-lg text-base inline-flex items-center px-5 py-2.5 text-center ml-2"
                             >
                                 Ya, Saya Yakin
                             </a>
@@ -132,7 +132,7 @@ const pemira = () => {
                                 Yes, Saya Yakin
                             </a>
                             <a
-                                href="Pemira2"
+                                href="Onetime"
                                 className="text-gray-900 bg-white hover:bg-gray-100 focus:ring-4 focus:ring-cyan-200 border border-gray-200 font-medium inline-flex items-center rounded-lg text-base px-3 py-2.5 text-center"
                             >
                                 No, Batalkan

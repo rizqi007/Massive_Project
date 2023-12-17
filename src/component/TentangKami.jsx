@@ -46,7 +46,7 @@ const TentangKami = () => {
                     </p>
                 </div>
                <div>
-                 <h2 className="md:ml-8 lg:ml-24 w-44  mb-8 px-4 py-2 font-semibold rounded-lg bg-green-700 text-white ">Bertemu Tim Kami</h2>
+                 <h2 className="md:ml-8 lg:ml-24 w-44  mb-8 px-4 py-2 font-semibold rounded-full bg-primary text-white ">Bertemu Tim Kami</h2>
                </div>
             </div>
             <div className="rounded-md mt-12 ">

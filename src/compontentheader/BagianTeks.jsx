@@ -1,5 +1,5 @@
 import Logo from "./logo";
-import Button from "./Button";
+
 
 const BagianTeks = () => {
     return (
@@ -10,7 +10,12 @@ const BagianTeks = () => {
                     <span className="text-white"> MENENTUKAN</span>
                     <br /> MASA DEPANMU
                 </h2>
-                <Button button="Pilih Sekarang !!" />
+                <a
+                                href="pemira"
+                                className="text-white mt-6 bg-primary hover:bg-orange-600 focus:ring-4 focus:ring-red-300 font-medium rounded-full text-base inline-flex items-center px-3 py-2.5 text-center ml-2"
+                            >
+                                Pilih Sekarang !!
+                            </a>
             </div>
             <div className="sm:visible xl:col-end-7 col-span-1 invisible">
                 <Logo />

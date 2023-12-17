@@ -3,7 +3,7 @@ import pemira from "../assets/img/pemira.png";
 
 const BagianIsi = () => {
     return (
-        <div className="lg:flex flex-row justify-center xl:flex justify-center p-20 -mt-5 md:justify-center">
+        <div className="lg:flex flex-row xl:flex justify-center p-20 -mt-5 md:justify-center">
             <div className=" xl:flex-1 text-gray-700 text-center mt-4 px-4 py-2 m-2">
                 <img className="" src={pemira} alt="" />
             </div>

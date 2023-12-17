@@ -95,7 +95,7 @@ const Table = (props) => {
 const Modal = (props) => {
     return (
         // kalian styling sendiri
-        <div className="shadow-xl absolute p-5 border z-10 place-content-center mt-64 mx-96 bg-white rounded-md justify-center m-auto " >
+        <div className="shadow-xl absolute p-5 border z-10 place-content-center mt-48 mx-96 bg-white rounded-md justify-center m-auto " >
             <p className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2 text-primary" onClick={() => props.setShowModal(false)}>X</p>
             <p className="font-bold text-center underline decoration-solid text-primary">
                 {props.sejak}
