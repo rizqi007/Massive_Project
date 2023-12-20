@@ -13,7 +13,6 @@ const TentangKami = () => {
         <div>
             <div>
                 <section>
-                    <ImageUpload/>
                     <div
                         className="bg-cover w-full h-96 mt-1"
                         style={{ backgroundImage: `url(${background})` }}
