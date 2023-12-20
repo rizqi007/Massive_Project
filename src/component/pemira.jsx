@@ -118,21 +118,20 @@ const pemira = () => {
                                 Visi, Misi & Proker
                             </h4>
                             <p>
-                                Visi : USU Menatap Indonesia.
+                                Visi : IKMI Menatap Indonesia.
                                 <br />
                                 <br />
                                 Misi :<br />
                                 - Peningkatan Iptek dan Kreativitas mahasiswa
                                 dalam menghadapi revolusi industry 4.0.
                                 <br />
-                                - Optimalisasi Minat dan Bakat mahasiswa USU.
+                                - Optimalisasi Minat dan Bakat mahasiswa IKMI.
                                 <br />
-                                - Inisiator pergerakan Sumatera Utara dan
-                                Indonesia.
+                                - Inisiator pergerakan STMIK IKMI Kota Cirebon.
                                 <br />
                                 - Revitalisasi Tata Laksana Organisasi
-                                kemahasiswaan Universitas Sumatera Utara (TLO
-                                USU).
+                                kemahasiswaan Sekolah Tinggi Ilmu Manajemen dan Komputer IKMI (STMIK
+                                IKMI).
                                 <br />
                                 - Membangun sinergitas antara mahasiswa dan
                                 alumni dalam menghadapi dunia kerja.
@@ -140,15 +139,15 @@ const pemira = () => {
                                 <br />
                                 Program Kerja Unggulan:
                                 <br />
-                                - Kongres Mahasiswa USU
+                                - Kongres Mahasiswa IKMI
                                 <br />
-                                - Lokakarya USU
+                                - Lokakarya IKMI
                                 <br />
                                 - PEMA Advocacy Center
                                 <br />
                                 - Scoter (Scholarship Center)
                                 <br />
-                                - USU Olympic Games
+                                - IKMI Olympic Games
                                 <br />
                                 - Podas (Pondok Cerdas)
                                 <br />
@@ -179,7 +178,7 @@ const pemira = () => {
                             Visi, Misi & Proker
                         </h4>
                         <p>
-                            Visi : Eskalasi Karya, Bergerak bersama USU untuk
+                            Visi : Eskalasi Karya, Bergerak bersama IKMI untuk
                             Indonesia.
                             <br />
                             <br />
@@ -205,17 +204,13 @@ const pemira = () => {
                             <br />
                             Program Kerja Unggulan:
                             <br />
-                            - Sultan USU
-                            <br />
-                            - USU Expo
+                            - IKMI Expo
                             <br />
                             - Ruang ASA (Alumni dan Mahasiswa)
                             <br />
                             - Kita Serasi (Sobat Serap Aspirasi)
                             <br />
-                            - Kopasu (Komando Pergerakan USU)
-                            <br />
-                            - Abdi USU
+                            - Abdi IKMI
                             <br />
                         </p>
                     </div>
