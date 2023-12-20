@@ -118,21 +118,20 @@ const pemira = () => {
                                 Visi, Misi & Proker
                             </h4>
                             <p>
-                                Visi : USU Menatap Indonesia.
+                                Visi : IKMI Menatap Indonesia.
                                 <br />
                                 <br />
                                 Misi :<br />
                                 - Peningkatan Iptek dan Kreativitas mahasiswa
                                 dalam menghadapi revolusi industry 4.0.
                                 <br />
-                                - Optimalisasi Minat dan Bakat mahasiswa USU.
+                                - Optimalisasi Minat dan Bakat mahasiswa IKMI.
                                 <br />
-                                - Inisiator pergerakan Sumatera Utara dan
-                                Indonesia.
+                                - Inisiator pergerakan IKMI Kota Cirebon.
                                 <br />
                                 - Revitalisasi Tata Laksana Organisasi
-                                kemahasiswaan Universitas Sumatera Utara (TLO
-                                USU).
+                                kemahasiswaan Sekolah Tinggi Ilmu Manajemen dan Komputer IKMI (STMIK
+                                IKMI).
                                 <br />
                                 - Membangun sinergitas antara mahasiswa dan
                                 alumni dalam menghadapi dunia kerja.
@@ -140,15 +139,13 @@ const pemira = () => {
                                 <br />
                                 Program Kerja Unggulan:
                                 <br />
-                                - Kongres Mahasiswa USU
+                                - Kongres Mahasiswa IKMI
                                 <br />
-                                - Lokakarya USU
-                                <br />
-                                - PEMA Advocacy Center
+                                - Lokakarya IKMI
                                 <br />
                                 - Scoter (Scholarship Center)
                                 <br />
-                                - USU Olympic Games
+                                - IKMI Olympic Games
                                 <br />
                                 - Podas (Pondok Cerdas)
                                 <br />
